@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SEMAGLUTIDE</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
+
+<style>
+.cont{
+    padding-top: 14rem !important;
+    
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px !important;
+    width: 100%;
+    padding-bottom: 20px !important;
+    padding-top: 20px !important;
+    margin: 10px 0 !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    z-index: 1999 !important;
+  }
+  
+  .contact-form h2 {
+    font-weight: bold;
+    font-size: 2em !important;
+    margin-bottom: 10px !important;
+    color: #333;
+  }
+  
+  .contact-form .input-box {
+    position: relative;
+    width: 100%;
+    margin-top: 10px !important;
+  }
+  
+  .contact-form .input-box input,
+  .contact-form .input-box textarea{
+    width: 100%;
+    padding: 5px 0 !important;
+    font-size: 16px;
+    margin: 10px 0 !important;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+  }
+  
+  .contact-form .input-box span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0 !important;
+    font-size: 16px;
+    margin: 10px 0 !important;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+  }
+  
+  .contact-form .input-box input:focus ~ span,
+  .contact-form .input-box textarea:focus ~ span{
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+  }
+  
+  .contact-form .input-box input[type="submit"]
+  {
+    width: 100%;
+    background: #da0812;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+    padding: 10px !important;
+    font-size: 18px;
+    border: 1px solid #da0812;
+    transition: 0.5s;
+  }
+  
+  .contact-form .input-box input[type="submit"]:hover
+  {
+    background: #FFF;
+    color: #da0812;
+  }
+
+  .box1{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fcfcfc;
+    padding: 30px;
+  }
+
+  .cont-info ul li i{
+    font-size: 18px !important;
+    color: #da0812;
+  }
+   ul li span{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 8px;
+   }
+  
+   .cont-info ul li{
+    margin-bottom: 3% !important;
+   }
+
+   .get h3,.say h3{
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 30px !important;
+   }
+
+.social-menu ul li{
+   position: relative;
+   float: left;
+   border-radius: 50%;
+   padding: 30px;
+   background-color: #eeebeb;
+   margin-right: 10px !important;
+}
+
+.social-menu ul li a{
+    position: absolute;
+    top:50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+    
+}
+
+.social-menu ul li a {
+    color: #da0812 ;
+}
+
+.social-menu ul li:hover{
+    background-color: #da0812 !important;
+}
+
+.social-menu ul li:hover a{ 
+    color: #fff !important;
+}
+
+@media (max-width:767px){
+    .cont h1{
+        font-size: 36px !important;
+    }
+.say{
+    margin-top: 40px !important;
+}
+
+.social-menu ul li{
+    padding: 20px !important;
+}
+    
+}
+
+@media(max-width:320px){
+    .contact-form h2 {
+        font-size: 1.6em !important;
+    }
+}
+</style>
+
+</head>
+    <header>
+        <div class="header fixed-top page-header p-0">
+          <div class="main-head">
+             <div class="container">
+                  <ul>
+                    <li><a href="#">Important Safety Information</a></li>
+                    <li class="two"><a href="#">Prescribing Information</a></li>
+                    <li><a href="#">Medication Guide</a></li>
+                  </ul>
+            </div>
+            <hr>
+          </div>
+
+            <nav class="navbar  navbar-expand-lg menu">
+              <div class="container">
+                      <a class="navbar-brand" href="index.html"><img class="logo" src="img/ozempic_logo.png" alt="" width="220px" ></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                              
+                            <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"> Why Ozempic®?</a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item mb-1" href="#">What is Ozempic®?</a></li>
+                                    <li><a class="dropdown-item mb-1" href="#">Ozempic® vs Other<br> Type 2 Diabetes Medicines</a></li>
+                                    <li><a class="dropdown-item mb-1" href="#">How Ozempic® Works</a></li>
+                                  </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">How to Take Ozempic®</a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item mb-1" href="#">Ozempic® Dosing</a></li>
+                                    <li><a class="dropdown-item mb-1" href="#">The Ozempic® Pen</a></li>
+                                    <li><a class="dropdown-item mb-1" href="#">Possible Side Effects</a></li>
+                                  </ul>
+                            </li>
+
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="#">FAQs</a>
+                              </li>
+
+                              <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Lifestyle Tips</a>
+                              </li>
+
+                          </ul>
+
+                      </div>                     
+                      <div class="buy-btn">
+                        <button class="btn btn-primary">Buy Ozempic®</button>
+                      </div>
+                </div>  
+            </nav>
+        </div>
+    </header>
+<body> 
+
+  <section class="cont">
+    <div class="container">
+        <h1 style="text-align: center; font-size:4rem; font-weight:800; color:#da0812;">CONTACT US</h1>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+        <div class="box1 pt-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-12">
+                    <div class="get">
+                        <h3 class="mb-5">GET IN TOUCH</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut repellat asperiores aspernatur suscipit cupiditate veniam quas quam dignissimos blanditiis voluptatem quibusdam.</p>
+                        
+                        <div class="cont-info mt-5">
+                            <ul>
+                                <li><i class="fa-regular fa-envelope"></i> <span>Contactus@gmail.com</span></li>
+                                <li><i class="fa-solid fa-phone"></i> <span>+62 456987799546</span></li>
+                                <li><i class="fa-solid fa-location-dot px-1"></i> <span>Riverside Building, County Hall, London SE1 7PB, United Kingdom</span></li>
+                            </ul>
+                        </div>
+
+                        <div class="social-menu mt-4">
+                            <ul>
+                                <li><a href="" target="blank"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="" target="blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="" target="blank"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="" target="blank"><i class="fab fa-twitter" ></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-6 col-12">
+                    <div class="say">
+                        <h3 class="mb-5">SAY SOMETHING</h3>
+    
+                        <div class="contact-form">
+                            <form action="" id="contact-form">
+                              <h2>Send Message</h2>
+                              <div class="input-box">
+                                <input type="text" required="true" name="">
+                                <span>Full Name</span>
+                              </div>
+                              
+                              <div class="input-box">
+                                <input type="email" required="true" name="">
+                                <span>Email</span>
+                              </div>
+                              
+                              <div class="input-box">
+                                <textarea required="true" name=""></textarea>
+                                <span>Type your Message...</span>
+                              </div>
+                              
+                              <div class="input-box">
+                                <input type="submit" value="Send" name="">
+                              </div>
+                            </form>
+                          </div>
+    
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+        
+    <div class="map mt-5">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30154.333632833965!2d72.80480731990264!3d19.13870439685433!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b618b6d891dd%3A0x91f8a857c731d132!2sAndheri%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1698481861214!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>    
+           
+  
+  </section>
+
+
+
+<a href="javascript:void(0)" class="whatsapp" onclick="window.open('https://api.whatsapp.com/send?phone=+911234569870&amp;text=Hello !', '_blank');"><img src="img/whatsapp.png" class="img-fluid" alt="whatsapp"></a>
+<!-- <div class="h2 mt-5"></div> -->
+
+<footer class="mt-100">
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+  
+          <div class="col-lg-5 col-md-5 col-12">
+            <div class="f1">
+              <div class="f-logo"><img src="img/ozempic_logo.png" alt="" width="180px"></div>
+              
+              <div class="social mt-3">
+                
+                  <span><a><i class="fa-brands fa-square-facebook"></i></a></span>
+                    <span><a><i class="fa-brands fa-square-twitter"></i></a></span>
+                      <span><a><i class="fa-brands fa-square-instagram"></i></a></span>
+                
+              </div>
+              
+              <p class="mt-2 f-info" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aut repellat asperiores aspernatur suscipit cupiditate veniam quas quam dignissimos blanditiis voluptatem quibusdam.</p>
+           
+              <div>
+                <p class="f-5"><i class="fa-solid fa-location-dot"></i>&nbsp;<b class="addr"> ADDRESS:</b> BLK 744 PASIR RIS Street 71, #13-01,510744 SIG</p>
+              </div>
+  
+              <div>
+                <p class="f-5"><i class="fa-solid fa-phone"></i>&nbsp;<b class="addr"> PHONE:</b><a href="tel:1000000000">+62 236 5698 5698/+62 968 5698 6589</a> </p>
+              </div>
+  
+              <div class="">
+                <p class="f-5"><i class="fa-solid fa-envelope"></i>&nbsp;<b class="addr"> MAIL:</b> sales@semaglutide.com</p>
+              </div>
+  
+            </div>
+          </div>
+  
+          <div class="col-lg-7 col-md-7 col-12">
+  
+            <div class="row">
+  
+              <div class="col-md-12 col-lg-12 col-12">
+                <div class="mt-5">
+                </div>
+              </div>
+  
+              <div class="col-md-4 col-lg-4 col-12">
+                <div class="f3">
+                  <h5>Our Product</h5>
+                  <ul class="imp mt-3 p-0">
+                    <li><a href="#">aasasddff</a></li>
+                    <li><a href="#">adfafafsd</a></li>
+                    <li><a href="#">adfafgdff</a></li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="col-md-4 col-lg-4 col-12">
+                <div class="f3">
+                  <h5 class="">Useful Links</h5>
+                    <ul class="imp mt-3 p-0">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+              </div>
+    
+              <div class="col-md-4 col-lg-4 col-12">
+                <div class="f3">
+                  <h5 class="">Important Links</h5>
+                    <ul class="imp mt-3 p-0">
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Shipping policy</a></li>
+                      <li><a href="#">Terms And Condition</a></li>
+                      <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+              </div>
+  
+              <div class="col-md-12 col-lg-12 col-12">
+                <div class="d mt-5">
+                  <hr style="color:#ffffff; z-index:1">
+                  <p class="mt-2" style="text-align: center; font-weight:bold; font-size:12px; color:#ffffff; padding-bottom: 10px;"><small>Copyright © SEMAGLUTIDE 2023  All Rights Reserved</small></p>
+                </div>
+              </div>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+        <!-- <script>
+          const header = document.querySelector(".page-header");
+            const toggleClass = "is-sticky";
+
+            window.addEventListener("scroll", () => {
+              const currentScroll = window.pageYOffset;
+              if (currentScroll > 150) {
+                header.classList.add(toggleClass);
+              } else {
+                header.classList.remove(toggleClass);
+              }
+            });
+        </script> -->
+
+       <!--
+         <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+            
+            slider.oninput = function() {
+              output.innerHTML = this.value;
+            }
+        </script>
+       -->
+
+        <script>
+          $(function() {
+              //----- OPEN
+              $('[data-popup-open]').on('click', function(e)  {
+                  var targeted_popup_class = jQuery(this).attr('data-popup-open');
+                  $('[data-popup="' + targeted_popup_class + '"]').fadeIn(350);
+           
+                  e.preventDefault();
+              });
+           
+              //----- CLOSE
+              $('[data-popup-close]').on('click', function(e)  {
+                  var targeted_popup_class = jQuery(this).attr('data-popup-close');
+                  $('[data-popup="' + targeted_popup_class + '"]').fadeOut(350);
+           
+                  e.preventDefault();
+              });
+          });
+          </script>
+       
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/script.js"></script>
+         
+</body>
+</html>
